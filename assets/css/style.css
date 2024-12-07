@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+    scroll-behavior: smooth;
+  }
+
+button a{
+  text-decoration: none;
+  color: white;
+}
+
+a:hover {
+  color: black;
+}
+
+.center {
+  margin: auto;
+  margin-left: auto;
+  margin-right: auto;
+}
+  
+.card {
+  margin: auto;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10%;
+  width: 80%;
+}
+
+.container-fluid a {
+    color: white;
+}
+
+.container-fluid a:hover {
+    color: red;
+    color: rgba(255, 255, 255, 0.605);
+}
+
+.collapse .navbar-nav .nav-item a{
+    color: white;
+}
+
+.collapse .navbar-nav .nav-item a:hover{
+    background-color: red;
+    color: white;
+    border-radius: 2px;
+  }
